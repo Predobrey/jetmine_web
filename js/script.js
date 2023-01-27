@@ -10883,7 +10883,7 @@
 ;
 jQuery(document).ready(function ($) {
     $('.about__slider').slick({
-        autoplay: true,
+        // autoplay: true,
         arrows: true,
         autoplaySpeed: 5000,
         // adaptiveHeight: true,
@@ -10895,13 +10895,6 @@ jQuery(document).ready(function ($) {
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
         responsive: [
-            // {
-            //     breakpoint: 1440,
-            //     settings: {
-            //         slidesToShow: 3.5,
-            //         slidesToScroll: 1
-            //     }
-            // },
             {
                 breakpoint: 1024,
                 settings: {
